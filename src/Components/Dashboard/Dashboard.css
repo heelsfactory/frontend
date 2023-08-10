@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@300&family=Noto+Sans+Display&display=swap");
+
+.dashboardContainer {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 3rem;
+  margin-bottom:3rem;
+  width:90%;
+}
+
+.card {
+  /* flex-grow: 1; */
+  width: 22rem;
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  box-shadow: -3px 15px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: -3px 23px 41px 9px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 auto; */
+}
+
+.card-title h3 {
+  font-size: 2rem;
+  font-family: "Outfit", sans-serif;
+  color: #770267;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card-desc {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Dosis", sans-serif;
+}
+
+.btn {
+  background-color: #770267;
+  padding: 10px 30px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #770267;
+  border: 1px solid #770267;
+}
+
+@media screen and (max-width: 1220px) {
+  .card {
+    /* width: 100%; */
+    flex-grow: 1;
+     display: flex;
+    
+  }
+ 
+}
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    
+  }
+ 
+}

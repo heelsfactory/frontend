@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@300&family=Noto+Sans+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+
+
+/* This CSS is for the Table component */
+
+.table{
+   width:80%;
+   border: 1px solid rgb(200, 195, 195);
+   padding:40px 30px 20px 30px;
+   border-radius: 10px;
+}
+  
+  /* Media query for small screens (max-width: 600px) */
+  @media screen and (max-width: 600px) {
+    .ant-table {
+      min-width: 400px; /* Reduce the minimum width for the table */
+    }
+  
+    /* Hide 'Address' and 'Description' columns on small screens */
+    .ant-table-thead th:nth-child(3),
+    .ant-table-thead th:nth-child(4),
+    .ant-table-tbody td:nth-child(3),
+    .ant-table-tbody td:nth-child(4) {
+      display: none;
+    }
+    
+  }
+  
+  @media screen and (max-width: 450px) {
+    .ant-table {
+      min-width: 200px; /* Reduce the minimum width for the table */
+    }
+  
+    /* Hide 'Address' and 'Description' columns on smaller screens */
+    .ant-table-thead th:nth-child(3),
+    .ant-table-thead th:nth-child(4),
+    .ant-table-tbody td:nth-child(3),
+    .ant-table-tbody td:nth-child(4) {
+      display: none;
+    }
+    
+  }
+  
+
+  

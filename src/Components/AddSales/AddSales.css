@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@300&family=Noto+Sans+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+
+.container{
+   
+  
+}
+.textWrapper{
+    /* background-color: aquamarine; */
+    margin-top: 1rem;
+}
+
+.textInput{
+    width:100%;
+    padding:10px;
+    border-radius: 5px;
+    /* border-color:gray; */
+    margin-top:10px;
+    border: 1px solid gray;
+    
+}
+.labelName{
+    color: #770267;
+    font-weight: bold;
+    
+}
+.addButton{
+    padding: 10px 15px;
+    color:#fff;
+    background-color: #770267 ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnContainer{
+    text-align: center;
+    margin-top: 1rem;
+    
+}
