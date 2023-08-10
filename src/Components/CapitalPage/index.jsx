@@ -3,7 +3,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import TableComponent from "../Table";
 import { Space, Table, Tag } from "antd";
 import DrawerPage from "../Drawer";
-import "./Capital.css";
+import "./capital.css";
 import { BulletList } from "react-content-loader";
 import ViewCapitalDetails from "../ViewCapitalDetails";
 import { addSalesProduct } from "../../Features/Sales/addSalesSlice";
