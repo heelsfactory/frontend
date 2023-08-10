@@ -74,7 +74,7 @@ const AddSales = () => {
             name="quantity"
             type="text"
             value={sales.quantity}
-            placeholder="NGA2000"
+            placeholder="GHC2000"
           />
         </div>
         <div className="textWrapper">
@@ -85,7 +85,7 @@ const AddSales = () => {
             name="moneyGot"
             type="text"
             value={sales.moneyGot}
-            placeholder="NGA35000"
+            placeholder="GHC35000"
           />
         </div>
         <div className="textWrapper">
@@ -96,7 +96,7 @@ const AddSales = () => {
             name="transportationCost"
             type="text"
             value={sales.transportationCost}
-            placeholder="NGA5000"
+            placeholder="GHC5000"
           />
         </div>
         <div className="btnContainer">

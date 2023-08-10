@@ -82,19 +82,19 @@ const AddProducts = () => {
       </div>
       <div className='textWrapper'>
         <label className='labelName'>Unit price</label> <br />
-        <input onChange={getProductData} value={products.unitPrice} className='textInput' name='unitPrice' type='text' placeholder='NGA2000' />
+        <input onChange={getProductData} value={products.unitPrice} className='textInput' name='unitPrice' type='text' placeholder='GHC2000' />
       </div>
       <div className='textWrapper'>
         <label className='labelName'>Cost Price</label> <br />
-        <input onChange={getProductData} value={products.costPrice} className='textInput' name='costPrice' type='text' placeholder='NGA35000' />
+        <input onChange={getProductData} value={products.costPrice} className='textInput' name='costPrice' type='text' placeholder='GHC35000' />
       </div>
       <div className='textWrapper'>
         <label className='labelName'>Profit expected</label> <br />
-        <input onChange={getProductData} value={products.profitExpected} className='textInput' name='profitExpected' type='text' placeholder='NGA5000' />
+        <input onChange={getProductData} value={products.profitExpected} className='textInput' name='profitExpected' type='text' placeholder='GHC5000' />
       </div>
       <div className='textWrapper'>
         <label className='labelName'>Quantity</label> <br />
-        <input onChange={getProductData} value={products.quantity} className='textInput' name='quantity' type='text' placeholder='NGA5000' />
+        <input onChange={getProductData} value={products.quantity} className='textInput' name='quantity' type='text' placeholder='GHC5000' />
       </div>
       <div className='textWrapper'>
         <label className='labelName'>Product image</label> <br />

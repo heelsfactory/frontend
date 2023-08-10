@@ -73,7 +73,7 @@ const [sales, setSales] = useState({
             name="month"
             type="text"
             value={sales.month}
-            placeholder="NGA2000"
+            placeholder="GHC2000"
             required
           />
         </div>
@@ -85,7 +85,7 @@ const [sales, setSales] = useState({
             name="monthNumber"
             type="text"
             value={sales.monthNumber}
-            placeholder="NGA35000"
+            placeholder="GHC35000"
    
           />
         </div>
@@ -97,7 +97,7 @@ const [sales, setSales] = useState({
             name="advertisingCost"
             type="text"
             value={sales.advertisingCost}
-            placeholder="NGA5000"
+            placeholder="GHC5000"
         
           />
         </div>
@@ -109,7 +109,7 @@ const [sales, setSales] = useState({
             name="packagingCost"
             type="text"
             value={sales.packagingCost}
-            placeholder="NGA5000"
+            placeholder="GHC5000"
         
           />
         </div>
@@ -122,7 +122,7 @@ const [sales, setSales] = useState({
             type="text"
             value={sales.capital}
             disabled
-            placeholder="NGA5000"
+            placeholder="GHC5000"
           
           />
         </div>

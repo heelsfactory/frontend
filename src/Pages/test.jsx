@@ -47,7 +47,7 @@ const AddProducts = () => {
             className="textInput"
             name="unitPrice"
             type="text"
-            placeholder="NGA2000"
+            placeholder="GHC2000"
           />
         </div>
         <div className="textWrapper">
@@ -57,7 +57,7 @@ const AddProducts = () => {
             className="textInput"
             name="costPrice"
             type="text"
-            placeholder="NGA35000"
+            placeholder="GHC35000"
           />
         </div>
         <div className="textWrapper">
@@ -67,7 +67,7 @@ const AddProducts = () => {
             className="textInput"
             name="profitExpected"
             type="text"
-            placeholder="NGA5000"
+            placeholder="GHC5000"
           />
         </div>
         <div className="textWrapper">
