@@ -30,6 +30,11 @@ const ProductsPage = () => {
   const dispatch = useDispatch();
   const columns = [
     {
+      title: "Product Name",
+      dataIndex: "productName",
+      render: (text, record) => <p className="innerText">{text}</p>,
+    },
+    {
       title: "Cost Price",
       dataIndex: "costPrice",
       render: (text, record) => <p className="innerText">{text}</p>,
@@ -37,11 +42,6 @@ const ProductsPage = () => {
     {
       title: "Initial Quantity",
       dataIndex: "initialQuantity",
-      render: (text, record) => <p className="innerText">{text}</p>,
-    },
-    {
-      title: "Product Name",
-      dataIndex: "productName",
       render: (text, record) => <p className="innerText">{text}</p>,
     },
     {

@@ -5,6 +5,7 @@ import animationData from "../../assets/heels.json";
 import product from "../../assets/product.png";
 import sales from "../../assets/sales.png";
 import finance from "../../assets/finance.png";
+import { Link } from "react-router-dom";
 const Dashboard = () => {
   return (
     <div>
@@ -23,8 +24,9 @@ const Dashboard = () => {
             <div className="card-desc">
               Manage costs, inventory of all your products
             </div>
-
-            <button className="btn">View</button>
+            <Link to="/products">
+              <button className="btn">View</button>
+            </Link>
           </div>
 
           <div className="card">
@@ -40,7 +42,9 @@ const Dashboard = () => {
             <div className="card-desc">
               Monitor sales, see sales history and check by month
             </div>
-            <button className="btn">View</button>
+            <Link to="/sales">
+              <button className="btn">View</button>
+            </Link>{" "}
           </div>
           <div className="card">
             <div className="card-img">
@@ -53,9 +57,11 @@ const Dashboard = () => {
               <h3>Capital</h3>
             </div>
             <div className="card-desc">
-             See investment breakdown on a monthly basis
+              See investment breakdown on a monthly basis
             </div>
-            <button className="btn">View</button>
+            <Link to="/capital">
+              <button className="btn">View</button>
+            </Link>{" "}
           </div>
           {/* <div className="card">2</div>
           <div className="card">3</div> */}

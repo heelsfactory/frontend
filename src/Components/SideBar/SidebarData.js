@@ -31,12 +31,12 @@ export const SidebarData = [
     // icon: <IoIcons.IoMdPeople />,
     cName: 'nav-text'
   },
-  {
-    title: 'Messages',
-    path: '/messages',
-    // icon: <FaIcons.FaEnvelopeOpenText />,
-    cName: 'nav-text'
-  },
+  // {
+  //   title: 'Messages',
+  //   path: '/messages',
+  //   // icon: <FaIcons.FaEnvelopeOpenText />,
+  //   cName: 'nav-text'
+  // },
   // {
   //   title: 'Support',
   //   path: '/support',
